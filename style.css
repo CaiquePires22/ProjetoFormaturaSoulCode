@@ -1,0 +1,261 @@
+html {
+    background-color: #1d1d1d;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  height: 100vw;
+   height: 100vh;
+   background-color: #1d1d1d;
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    width: 85px;
+    position: relative;
+    display: inline-block;
+
+    
+}
+
+.geralzao {
+    width: 100%;
+    height: 100%;
+    background-color: #1d1d1d;
+    
+}
+.corzinha{
+    width: 100%; 
+    background-color: rgb(71, 65, 65);
+    position: fixed;
+}
+.container2 {
+    padding-top: 15px;
+    height: 90%;
+    width: 100%;
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+  
+}
+
+
+.frex-item1 {
+    display: none;
+    background-color: #1d1d1d;
+    color: white;
+    min-width: 200px;
+    position: fixed;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px white;
+}
+
+
+.frex-item1 a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration:none;
+    display:block;
+}
+
+.frex-item1 a:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow: -3px 3px 3px rgb(255, 255, 255);
+}
+
+.container1:hover .frex-item1 {
+    display:block;
+    width: 15%;
+}
+
+.buttonmenu {
+    background-color: rgb(71, 65, 65);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right:20px;
+    padding-left: 20px;
+}
+
+.buttonmenu:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+.frex-item7, .frex-item8, .frex-item9, .frex-item4, .frex-item5, .frex-item6 {
+    box-shadow: 0px 0px 6px white; 
+    height: 45%;
+    width: 26%;
+    padding: 2px;
+    background-color: rgb(71, 65, 65);
+    color: rgba(0, 0, 255, 0);
+    display: flex;
+    align-items:flex-end;
+}
+
+.frex-itemEX {
+    box-shadow: 0px 0px 6px white; 
+    height: 45%;
+    width: 26%;
+    padding: 2px;
+    background-color: rgb(71, 65, 65);
+    color: rgba(0, 0, 255, 0);
+    display:none;
+    align-items:flex-end;
+}
+
+.frex-itemEX, .frex-item4  {
+    background-image: url(https://cdn.shopify.com/s/files/1/0104/8756/2291/products/3-main-colares-masculinos-de-pedras-de-cristais-corrente-cubana-de-13mm-totalmente-cravejada-joias-de-rapper-hip-hop-para-homens.png?v=1668005519);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.frex-item5 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0019/4858/1951/products/anel-clean-ice-cravejado-prata-dourado-0.png?v=1679328588);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frex-item6 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0019/4858/1951/products/Relogio-Ice-Luxury-Cravejado-Prata-Estilo-Patek_1024x.jpg?v=1679349441);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frex-item7 {
+    background-image: url(https://ae01.alicdn.com/kf/HTB1UZ0DSrrpK1RjSZTEq6AWAVXaq/Pingente-de-cabe-a-de-mush-colar-de-zirc-o-c-bico-masculino-feminino-hip-hop.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frex-item8 {
+    background-image: url(https://ae01.alicdn.com/kf/H5b075ba11dd74d408739c9b2f9d751b6y/Pulseira-masculina-cheia-de-strass-bracelete-de-cor-dourada-com-fecho-cubano-joia-para-homens.jpg_640x640.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frex-item9 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0589/5736/5419/products/Sb5824ee02c9142b1a64ed58d4706a3efI_800x.jpg?v=1675301768);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+/* .frex-itemEX, .frex-item4 {
+    color: rgba(255, 255, 255, 0);
+} */
+@keyframes ampli {
+    0% { 
+        background-size: 100%;
+        color: rgba(0, 0, 255, 0);
+    }
+    100% {
+        background-size: 120%;
+        color: white;
+        box-shadow: 0 0 6px white, inset 0 -120px 6px -8px  rgba(24, 24, 27, 0.575);
+    }
+}
+
+@keyframes testando {
+    0% { 
+        background-size: 100%;
+        color: rgba(0, 0, 255, 0);
+    }
+    100% {
+        background-size: 100%;
+        color: white;
+        box-shadow: 0 0 6px white, inset 0 -120px 6px -8px  rgba(24, 24, 27, 0.575);
+    }
+}
+
+.frex-itemEX:hover, .frex-item4:hover, .frex-item5:hover, .frex-item6:hover, .frex-item7:hover, .frex-item8:hover, .frex-item9:hover{
+    animation-name: ampli;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-fill-mode:forwards;
+} 
+
+.frex-itemEX, .frex-item4, .frex-item5, .frex-item6, .frex-item7, .frex-item8, .frex-item9 {
+    justify-content: center;
+
+    margin-top: 5%;
+}
+
+@media (max-width:650px) {
+    @keyframes ampli {
+        0% { 
+            background-size: cover;
+            color: rgba(255, 255, 255, 0);
+        }
+        100% {
+            background-size: cover;
+            box-shadow: 0 0 6px white, inset 0 -120px 6px -8px  rgba(24, 24, 27, 0.575);
+            color: white;
+        } 
+    }
+    .frex-item7, .frex-item8, .frex-item9, .frex-itemEX, .frex-item4, .frex-item5, .frex-item6 {
+      height: 30%;
+      width: 90%;
+      margin-bottom: 15%;
+      
+    }
+    .frex-itemEX, .frex-item4 {
+        margin-top: 13%;
+    }
+    
+}
+
+
+.footera {
+    
+    padding: 0.5%;
+    align-self: flex-end;
+    align-content: flex-end;
+    color: white;
+    background-color: #2e2e2e;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#H22 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    transform: skewX(-19deg);
+}
+
+.cabeçalho {
+    width: 100%;
+    height: 10%;
+}
+
+
